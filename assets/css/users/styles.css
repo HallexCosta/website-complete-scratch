@@ -1,0 +1,59 @@
+main {
+	overflow: auto;
+}
+
+.users-container {
+	background-color: #fff;
+  border: 1px #fff solid;
+  border-radius: 10px;
+  margin: 0 35px 15px;
+  padding: 0 35px 20px;
+}
+
+.users-container h1 {
+	text-align: left;
+	margin: 35px 0 35px;
+}
+
+.users-container div {
+	display: grid;
+	max-width: auto;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	grid-gap: 2vh;
+}
+
+.users-container div ul {
+	font-size: 20pt;
+	padding: 0;
+}
+
+.users-container div ul .id {
+	background-color: #eeeeee;
+	font-weight: 700;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+
+	filter: brightness(97%);
+}
+
+.users-container div ul .id::after {
+	counter-increment: my-sec-counter;
+	content: "ID: " counter(my-sec-counter);
+}
+
+.users-container ul li {
+	background-color: #f2f2f2;
+	padding: 8px;
+	border: 1px #ddd solid;
+	font-size: 16pt;
+}
+
+::-webkit-scrollbar {
+  width: 0.1px;
+  height: 0.1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
