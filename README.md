@@ -1,9 +1,16 @@
+
 # Website Complete from Scratch
 
 ## Technologies Used
 * **HTML 5**
 * **CSS 3**
 * **JavaScript**
+
+
+## Preview
+**Link: [Website Complete Scratch](https://website-complete-scratch.netlify.app/)**
+<br>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7a923582-43b9-4a68-af27-253d0a4f5cec/deploy-status)](https://app.netlify.com/sites/website-complete-scratch/deploys)
 
 ## Layout Images
 
